@@ -44,7 +44,7 @@ function start() {
         });
     
     
-        $(document).keyup(function(e){
+    $(document).keyup(function(e){
            jogo.pressionou[e.which] = false;
         });
 
